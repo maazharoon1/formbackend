@@ -1,0 +1,23 @@
+{
+  "name": "router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "route.js",
+  "scripts": {
+    "start": "node route.js",
+    "dev": "nodemon route.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "5.2.1",
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
